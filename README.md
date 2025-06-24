@@ -4,7 +4,7 @@
 <p dir="auto"></p>
 </li>
 Сайт до:
-![image](https://github.com/user-attachments/assets/447c4c23-333a-4eef-9326-338523456caf)
+![](https://github.com/user-attachments/assets/447c4c23-333a-4eef-9326-338523456caf)
 Код до:
   <!DOCTYPE html>
 <html>
@@ -71,7 +71,7 @@
 </body>
 </html>
 Сайт после:
-![image](https://github.com/user-attachments/assets/deed0e24-54dc-4a4f-a2b8-d595f3988f9c)
+![](https://github.com/user-attachments/assets/deed0e24-54dc-4a4f-a2b8-d595f3988f9c)
 Код после:
 <!DOCTYPE html>
 <html lang="ru">
