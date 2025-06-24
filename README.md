@@ -1,1 +1,142 @@
-# Resume_Skillbox
+<h1 tabindex="-1" class="heading-element" dir="auto">Frontend-разработка</h1>
+<ul dir="auto">
+<li>
+<p dir="auto"></p>
+</li>
+Сайт до:
+![image](https://github.com/user-attachments/assets/447c4c23-333a-4eef-9326-338523456caf)
+Код до:
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Смарт-Эксперт — сайт находится в разработке</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style type="text/css">
+	html, body {
+		height: 100%;
+		font-family: Roboto;
+	}
+	h2 {
+		color: green;
+	}
+	h3 {
+		color: red;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	</style>
+	<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	  // Get today's date and time
+	  var now = new Date().getTime();
+
+	  // Find the distance between now and the count down date
+	  var distance = countDownDate - now;
+
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  // Display the result in the element with id="demo"
+	  document.getElementById("countdown").innerHTML = days + " дн. " +
+		hours + " ч " +
+		minutes + " мин " +
+		seconds + " с";
+
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+	    clearInterval(x);
+	    document.getElementById("countdown").innerHTML = "ПРЯМО СЕЙЧАС";
+	  }
+	}, 1000);
+	</script>
+</head>
+<body>
+	<h1>Смарт-Эксперт</h1>
+	<h2>Сайт будет доступен через: <span id="countdown"></span></h2>
+	<h3>Вы можете связаться с нами:</h3>
+	<div>Телефон: +7 499 444-90-36</div>
+	<div>Instagram: <a href="https://www.instagram.com/skillbox.ru" target="_blank">@skillbox.ru</a></div>
+</body>
+</html>
+Сайт после:
+![image](https://github.com/user-attachments/assets/deed0e24-54dc-4a4f-a2b8-d595f3988f9c)
+Код после:
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+	<title>Skillbox — сайт находится в разработке</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+	html, body {
+		height: 100%;
+		font-family: Roboto;
+	}
+	h2 {
+		color: green;
+	}
+	h3 {
+		color: #f0693c;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	</style>
+	<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("Jun 5, 2025 00:40:25").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	  // Get today's date and time
+	  var now = new Date().getTime();
+
+	  // Find the distance between now and the count down date
+	  var distance = countDownDate - now;
+
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  // Display the result in the element with id="demo"
+	  document.getElementById("countdown").innerHTML = days + " дн. " +
+		hours + " ч " +
+		minutes + " мин " +
+		seconds + " с";
+
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+	    clearInterval(x);
+	    document.getElementById("countdown").innerHTML = "ПРЯМО СЕЙЧАС";
+	  }
+	}, 1000);
+	</script>
+</head>
+<body>
+	<h1>Skillbox</h1>
+	<h2>Моё прохождение курса начнётся через: <span id="countdown"></span></h2>
+	<h3>Вы можете связаться с нами:</h3>
+	<div>Телефон: +7 (495) 154-09-36</div>
+	<div>Email: hello@skillbox.ru</div>
+	<div>Instagram: <a href="https://www.instagram.com/skillbox.ru" target="_blank">@skillbox.ru</a></div>
+	<div>Youtube: <a href="https://www.youtube.com/channel/UCHJZFCpwlXV7Sie1dV6pQLw" target="_blank">@skillboxprogramming</a></div>
+</body>
+</html>
