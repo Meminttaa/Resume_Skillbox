@@ -1,11 +1,10 @@
 <h1 tabindex="-1" class="heading-element" dir="auto">Frontend-разработка</h1>
-<ul dir="auto">
-<li>
-<p dir="auto"></p>
-</li>
+
 Сайт до:
+	
 ![](https://github.com/user-attachments/assets/447c4c23-333a-4eef-9326-338523456caf)
 Код до:
+```html
   <!DOCTYPE html>
 <html>
 <head>
@@ -70,9 +69,12 @@
 	<div>Instagram: <a href="https://www.instagram.com/skillbox.ru" target="_blank">@skillbox.ru</a></div>
 </body>
 </html>
+```
 Сайт после:
+
 ![](https://github.com/user-attachments/assets/deed0e24-54dc-4a4f-a2b8-d595f3988f9c)
 Код после:
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -140,3 +142,5 @@
 	<div>Youtube: <a href="https://www.youtube.com/channel/UCHJZFCpwlXV7Sie1dV6pQLw" target="_blank">@skillboxprogramming</a></div>
 </body>
 </html>
+```
+<h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Java</h1>
