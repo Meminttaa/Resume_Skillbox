@@ -269,4 +269,53 @@ if over_speed >= 60:
 
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка Android-приложений</h1>
 
+Задание 1
 
+Задание 2
+
+Код:
+```html
+import java.util.*
+ 
+fun main(args: Array<String>) {
+    var carSpeed = 96
+    var townSpeed = 50
+ 
+	var fineFor1to10 = 15
+	var fineFor11to15 = 25
+	var fineFor16to20 = 35
+	var fineFor21to25 = 80
+	var fineFor26to30 = 100
+	var fineFor31to40 = 160
+	var fineFor41to50 = 200
+	var fineFor51to60 = 280
+	var fineFor61to70 = 480
+	var fineFor71andMore = 680
+ 
+	var overSpeed = carSpeed - townSpeed
+ 
+	if (overSpeed < 1) {
+	    print("Скорость не превышена или превышена незначительно")
+	} else if (overSpeed >= 1 && overSpeed <= 10) {
+	    print("Штраф: " + fineFor1to10)
+	} else if (overSpeed >= 11 && overSpeed <= 15) {
+	    print("Штраф: " + fineFor11to15)
+	} else if (overSpeed >= 16 && overSpeed <= 20) {
+	    print("Штраф: " + fineFor16to20)
+	} else if (overSpeed >= 21 && overSpeed <= 25) {
+	    print("Штраф: " + fineFor21to25)
+	} else if (overSpeed >= 26 && overSpeed <= 30) {
+	    print("Штраф: " + fineFor26to30)
+	} else if (overSpeed >= 31 && overSpeed <= 40) {
+	    print("Штраф: " + fineFor31to40)
+	} else if (overSpeed >= 41 && overSpeed <= 50) {
+	    print("Штраф: " + fineFor41to50)
+	} else if (overSpeed >= 51 && overSpeed <= 60) {
+	    print("Штраф: " + fineFor51to60)
+	} else if (overSpeed >= 61 && overSpeed <= 70) {
+	    print("Штраф: " + fineFor61to70)
+	} else {
+	    print("Штраф: " + fineFor71andMore)
+	}
+}
+```
