@@ -267,6 +267,6 @@ if over_speed >= 60:
 
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка iOS-приложений</h1>
 
-
+<h1 tabindex="-1" class="heading-element" dir="auto">Разработка Android-приложений</h1>
 
 
