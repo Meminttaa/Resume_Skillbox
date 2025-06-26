@@ -3,77 +3,11 @@
 **Сайт до:**
 	
 ![](https://github.com/user-attachments/assets/447c4c23-333a-4eef-9326-338523456caf)
-**Код до:**
-```html
-  <!DOCTYPE html>
-<html>
-<head>
-	<title>Смарт-Эксперт — сайт находится в разработке</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-	<style type="text/css">
-	html, body {
-		height: 100%;
-		font-family: Roboto;
-	}
-	h2 {
-		color: green;
-	}
-	h3 {
-		color: red;
-	}
-	body {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	</style>
-	<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	  // Get today's date and time
-	  var now = new Date().getTime();
-
-	  // Find the distance between now and the count down date
-	  var distance = countDownDate - now;
-
-	  // Time calculations for days, hours, minutes and seconds
-	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	  // Display the result in the element with id="demo"
-	  document.getElementById("countdown").innerHTML = days + " дн. " +
-		hours + " ч " +
-		minutes + " мин " +
-		seconds + " с";
-
-	  // If the count down is finished, write some text
-	  if (distance < 0) {
-	    clearInterval(x);
-	    document.getElementById("countdown").innerHTML = "ПРЯМО СЕЙЧАС";
-	  }
-	}, 1000);
-	</script>
-</head>
-<body>
-	<h1>Смарт-Эксперт</h1>
-	<h2>Сайт будет доступен через: <span id="countdown"></span></h2>
-	<h3>Вы можете связаться с нами:</h3>
-	<div>Телефон: +7 499 444-90-36</div>
-	<div>Instagram: <a href="https://www.instagram.com/skillbox.ru" target="_blank">@skillbox.ru</a></div>
-</body>
-</html>
-```
 **Сайт после:**
 
 ![](https://github.com/user-attachments/assets/deed0e24-54dc-4a4f-a2b8-d595f3988f9c)
-**Код после:**
+
+**Код:**
 ```html
 <!DOCTYPE html>
 <html lang="ru">
@@ -144,6 +78,136 @@
 </html>
 ```
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Java</h1>
+
+**Задача 1**
+
+![](https://github.com/user-attachments/assets/d01c8c07-e3c7-484b-8806-3ea33eb5ab1a)
+
+**Код:**
+```html
+ System.out.println("Система расчёта штрафов");
+    
+    int carSpeed = 78;
+    
+    int fineFor1to10 = 30;
+    int fineFor11to15 = 50;
+    int fineFor16to20 = 70;
+    int fineFor21to25 = 115;
+    int fineFor26to30 = 180;
+    int fineFor31to40 = 260;
+    int fineFor41to50 = 400;
+    int fineFor51to60 = 560;
+    int fineFor61to70 = 700;
+    int fineFor70andMore = 800;
+    
+    int townSpeed = 50;
+    
+    int overSpeed = carSpeed - townSpeed;
+    
+    if(overSpeed < 1) {
+      System.out.println("Скорость не превышена или превышена незначительно");
+    }
+
+    else if(overSpeed >= 1 && overSpeed <= 10) {
+        System.out.println("Штраф: " + fineFor1to10);}
+        
+    else if(overSpeed >= 11 && overSpeed <= 15) {
+        System.out.println("Штраф: " + fineFor11to15);}
+        
+    else if(overSpeed >= 16 && overSpeed <= 20) {
+        System.out.println("Штраф: " + fineFor16to20);}
+        
+    else if(overSpeed >= 21 && overSpeed <= 25) {
+        System.out.println("Штраф: " + fineFor21to25);}
+        
+    else if(overSpeed >= 26 && overSpeed <= 30) {
+        System.out.println("Штраф: " + fineFor26to30);}
+    
+    else if(overSpeed >= 31 && overSpeed <= 40) {
+        System.out.println("Штраф: " + fineFor31to40);}
+        
+    else if(overSpeed >= 41 && overSpeed <= 50) {
+        System.out.println("Штраф: " + fineFor41to50);}
+        
+    else if(overSpeed >= 51 && overSpeed <= 60) {
+        System.out.println("Штраф: " + fineFor51to60);}
+    
+    else if(overSpeed >= 61 && overSpeed <= 70) {
+        System.out.println("Штраф: " + fineFor61to70);}
+        
+    else if(overSpeed >= 70) {
+        System.out.println("Штраф: " + fineFor70andMore);}
+```
+
+**Задача 2**
+
+![](https://github.com/user-attachments/assets/a5446256-9b3e-4f07-84dd-47a4ec0987ce)
+
+**Код:**
+```html
+System.out.println("Система расчёта штрафов в Германии");
+    
+    int carSpeed = 78;
+    
+    int fineFor1to10 = 30;
+    int fineFor11to15 = 50;
+    int fineFor16to20 = 70;
+    int fineFor21to25 = 115;
+    int fineFor26to30 = 180;
+    int fineFor31to40 = 260;
+    int fineFor41to50 = 400;
+    int fineFor51to60 = 560;
+    int fineFor61to70 = 700;
+    int fineFor70andMore = 800;
+    
+    int townSpeed = 50;
+    
+    int overSpeed = carSpeed - townSpeed;
+    
+    if(overSpeed < 1) {
+      System.out.println("Скорость не превышена или превышена незначительно");
+    }
+
+    else if(overSpeed >= 1 && overSpeed <= 10) {
+        System.out.println("Штраф: " + fineFor1to10 + " евро.");}
+        
+    else if(overSpeed >= 11 && overSpeed <= 15) {
+        System.out.println("Штраф: " + fineFor11to15 + " евро.");}
+        
+    else if(overSpeed >= 16 && overSpeed <= 20) {
+        System.out.println("Штраф: " + fineFor16to20 +  "евро.");}
+        
+    else if(overSpeed >= 21 && overSpeed <= 25) {
+        System.out.println("Штраф: " + fineFor21to25 + " евро.");}
+        
+    else if(overSpeed >= 26 && overSpeed <= 30) {
+        System.out.println("Штраф: " + fineFor26to30 + " евро.");}
+    
+    else if(overSpeed >= 31 && overSpeed <= 40) {
+        System.out.println("Штраф: " + fineFor31to40 + " евро.");}
+        
+    else if(overSpeed >= 41 && overSpeed <= 50) {
+        System.out.println("Штраф: " + fineFor41to50 + " евро.");}
+        
+    else if(overSpeed >= 51 && overSpeed <= 60) {
+        System.out.println("Штраф: " + fineFor51to60 + " евро.");}
+    
+    else if(overSpeed >= 61 && overSpeed <= 70) {
+        System.out.println("Штраф: " + fineFor61to70 + " евро.");}
+        
+    else if(overSpeed >= 70) {
+        System.out.println("Штраф: " + fineFor70andMore + " евро.");}
+```
+
+**Задача 3**
+**Код:**
+```html
+```
+
+**Задача 4**
+**Код:**
+```html
+```
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Python</h1>
 
 **Код до:**
