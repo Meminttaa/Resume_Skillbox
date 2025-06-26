@@ -271,6 +271,10 @@ if over_speed >= 60:
 
 Задание 1
 
+Результат:
+
+![](https://github.com/user-attachments/assets/5ddb2818-acdf-46fb-8971-4530de1d6b21)![](https://github.com/user-attachments/assets/c17deab9-b315-4559-a082-6f2a460caaea)
+
 Задание 2
 
 Код:
