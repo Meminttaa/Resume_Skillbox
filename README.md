@@ -1,9 +1,9 @@
 <h1 tabindex="-1" class="heading-element" dir="auto">Frontend-разработка</h1>
 
-Сайт до:
+**Сайт до:**
 	
 ![](https://github.com/user-attachments/assets/447c4c23-333a-4eef-9326-338523456caf)
-Код до:
+**Код до:**
 ```html
   <!DOCTYPE html>
 <html>
@@ -70,10 +70,10 @@
 </body>
 </html>
 ```
-Сайт после:
+**Сайт после:**
 
 ![](https://github.com/user-attachments/assets/deed0e24-54dc-4a4f-a2b8-d595f3988f9c)
-Код после:
+**Код после:**
 ```html
 <!DOCTYPE html>
 <html lang="ru">
@@ -146,7 +146,7 @@
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Java</h1>
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Python</h1>
 
-Код до:
+**Код до:**
 ```html
 print("Система расчёта штрафов")
 
@@ -177,7 +177,7 @@ elif over_speed >= 60 and over_speed < 80:
 elif over_speed >= 80:
   print("Штраф: " + str(fine_for_80_and_more))
 ```
-Код после:
+**Код после:**
 
 ```html
 print("Система расчёта штрафов")
@@ -237,16 +237,16 @@ if over_speed >= 60:
     if not is_camera:
         print("Возможно лишение прав по решению суда")
 ```
-Результат:
+**Результат:**
 
 ![](https://github.com/user-attachments/assets/e33c4416-3450-416b-9d8f-4ba246d1ef90)
 <h1 tabindex="-1" class="heading-element" dir="auto">Тестирование (QA)</h1>
 <h1 tabindex="-1" class="heading-element" dir="auto">Кибербезопасность</h1>
-Задача 1
+**Задача 1**
 
 ![](https://github.com/user-attachments/assets/d2736852-3479-4801-a5bb-a6adb71c0e23)
 
-Задача 2
+**Задача 2**
 
 Пароль kotenochekPass состоит из строчных и заглавных латинских букв, что даёт в общей сложности 52 возможных символа. Его длина составляет 14 знаков. Общее количество возможных комбинаций для такого пароля равняется 52 в 14-й степени, что приблизительно составляет 1,05 × 10²⁴ вариантов.
 
@@ -254,12 +254,12 @@ if over_speed >= 60:
 
 Если разделить общее число комбинаций (1,05 × 10²⁴) на полученное количество секунд, выйдет примерно 4 миллиарда операций в секунду. Эта цифра и отражает предполагаемую скорость перебора пароля сервисом.
 
-Задача 3
+**Задача 3**
 
 ![](https://github.com/user-attachments/assets/40bb623d-6fa7-4fd5-9880-b5b092365dac)
 
 <h1 tabindex="-1" class="heading-element" dir="auto">Data Science</h1>
-Практическая работа:
+**Практическая работа:**
 
 Самый точный алгоритм, который был найден это ClassificationViaRegression с точностью 80.2505%
 
@@ -269,15 +269,15 @@ if over_speed >= 60:
 
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка Android-приложений</h1>
 
-Задание 1
+**Задание 1**
 
-Результат:
+**Результат:**
 
 ![](https://github.com/user-attachments/assets/5ddb2818-acdf-46fb-8971-4530de1d6b21)![](https://github.com/user-attachments/assets/c17deab9-b315-4559-a082-6f2a460caaea)
 
-Задание 2
+**Задание 2**
 
-Код:
+**Код:**
 ```html
 import java.util.*
  
