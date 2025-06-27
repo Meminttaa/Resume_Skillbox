@@ -485,6 +485,7 @@ public class Main
 ![](https://github.com/user-attachments/assets/40bb623d-6fa7-4fd5-9880-b5b092365dac)
 
 <h1 tabindex="-1" class="heading-element" dir="auto">Data Science</h1>
+
 **Практическая работа:**
 
 Самый точный алгоритм, который был найден это ClassificationViaRegression с точностью 80.2505%
