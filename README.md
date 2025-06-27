@@ -461,6 +461,11 @@ public class Main
 ```
 
 **Задача 3**
+
+Максимальное значение которое удалось получить: 
+
+![](https://github.com/user-attachments/assets/05d37e8f-065b-4137-8d00-b6b4b6026c5b)
+
 <h1 tabindex="-1" class="heading-element" dir="auto">Кибербезопасность</h1>
 
 **Задача 1**
