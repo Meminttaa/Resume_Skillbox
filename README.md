@@ -205,8 +205,48 @@ System.out.println("Система расчёта штрафов в Герман
 ```
 
 **Задача 4**
+
+![](https://github.com/user-attachments/assets/faf9e2af-c8d4-4a1e-888a-1579203e616f)
+![](https://github.com/user-attachments/assets/84100d31-edba-4f4c-aa46-828f5143e84a)
+![](https://github.com/user-attachments/assets/62b01ca3-f8b7-4b10-92f5-8d6314e941b5)
+![](https://github.com/user-attachments/assets/867a5e9e-1dfa-46ea-ab4f-97393d35d79b)
+
+
 **Код:**
 ```html
+System.out.println("Система расчёта штрафов");
+    
+    int carSpeed = 87;
+    boolean isTown = true;
+    int countrySpeed = 90;
+    
+    int fineFor20to40 = 500;
+    int fineFor40to60 = 1000;
+    int fineFor60to80 = 2000;
+    int fineFor80andMore = 5000;
+    
+    int townSpeed = 60;
+    
+    int overSpeed;
+    if(isTown) {
+        overSpeed = carSpeed - townSpeed;}
+        else {
+            overSpeed = carSpeed - countrySpeed;}
+    
+    if(overSpeed < 20) {
+      System.out.println("Скорость не превышена или превышена незначительно");}
+      
+    else if(overSpeed >= 20 && overSpeed < 40) {
+      System.out.println("Штраф: " + fineFor20to40);}
+      
+    else if(overSpeed >= 40 && overSpeed < 60) {
+      System.out.println("Штраф: " + fineFor40to60);}
+      
+    else if(overSpeed >= 60 && overSpeed < 80) {
+      System.out.println("Штраф: " + fineFor60to80);}
+      
+    else if(overSpeed >= 80) {
+      System.out.println("Штраф: " + fineFor80andMore);}
 ```
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Python</h1>
 
