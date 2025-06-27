@@ -314,7 +314,118 @@ if over_speed >= 60:
 
 ![](https://github.com/user-attachments/assets/e33c4416-3450-416b-9d8f-4ba246d1ef90)
 <h1 tabindex="-1" class="heading-element" dir="auto">Тестирование (QA)</h1>
+
+**Задача 1**
+
+**Задача 2**
+
+![](https://github.com/user-attachments/assets/afac146f-8e67-4b69-815b-81cfeaa87a39)
+
+```html
+public class Main
+{
+	public static void main (String[] args) {
+		System.out.println("Система расчёта штрафов");
+		
+		check(-20, 0);
+		check(0, 0);
+		check(25, 0);
+		check(50, 0);
+		check(51, 15);
+		check(55, 15);
+		check(60, 15);
+		check(61, 25);
+		check(63, 25);
+		check(65, 25);
+		check(66, 35);
+		check(68, 35);
+		check(70, 35);
+		check(71, 80);
+		check(73, 80);
+		check(75, 80);
+		check(76, 100);
+		check(78, 100);
+		check(80, 100);
+		check(81, 160);
+		check(85, 160);
+		check(90, 160);
+		check(91, 200);
+		check(95, 200);
+		check(100, 200);
+		check(101, 280);
+		check(110, 280);
+		check(111, 480);
+		check(115, 480);
+		check(120, 480);
+		check(121, 680);
+		check(135, 680);
+		check(200, 680);
+	}
+	
+	public static void check(int carSpeed, int fine)
+	{
+		if(calculateFine(carSpeed) != fine) {
+			System.out.println("Неверный штраф " + fine + " для скорости " + carSpeed);
+		}
+		else {
+			System.out.println("Штраф " + fine + " для скорости " + carSpeed + " рассчитан верно");
+		}
+	}
+	
+	public static int calculateFine(int carSpeed) {
+		int fineFor1to10 = 15;
+		int fineFor11to15 = 25;
+		int fineFor16to20 = 35;
+		int fineFor21to25 = 80;
+		int fineFor26to30 = 100;
+		int fineFor31to40 = 160;
+		int fineFor41to50 = 200;
+		int fineFor51to60 = 280;
+		int fineFor61to70 = 480;
+		int fineForMoreThan70 = 680;
+		
+		int townSpeed = 50;
+		
+		int overSpeed = carSpeed - townSpeed;
+		
+		if(overSpeed <= 0) {
+			return 0;
+		}
+		else if(overSpeed >= 1 && overSpeed <= 10) {
+			return fineFor1to10;
+		}
+		else if(overSpeed >= 11 && overSpeed <= 15) {
+			return fineFor11to15;
+		}
+		else if(overSpeed >= 16 && overSpeed <= 20) {
+			return fineFor16to20;
+		}
+		else if(overSpeed >= 21 && overSpeed <= 25) {
+			return fineFor21to25;
+		}
+		else if(overSpeed >= 26 && overSpeed <= 30) {
+			return fineFor26to30;
+		}
+		else if(overSpeed >= 31 && overSpeed <= 40) {
+			return fineFor31to40;
+		}
+		else if(overSpeed >= 41 && overSpeed <= 50) {
+			return fineFor41to50;
+		}
+		else if(overSpeed >= 51 && overSpeed <= 60) {
+			return fineFor51to60;
+		}
+		else if(overSpeed >= 61 && overSpeed <= 70) {
+			return fineFor61to70;
+		}
+		return fineForMoreThan70;
+	}
+}
+```
+
+**Задача 3**
 <h1 tabindex="-1" class="heading-element" dir="auto">Кибербезопасность</h1>
+
 **Задача 1**
 
 ![](https://github.com/user-attachments/assets/d2736852-3479-4801-a5bb-a6adb71c0e23)
