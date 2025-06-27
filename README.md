@@ -250,7 +250,7 @@ System.out.println("Система расчёта штрафов");
 ```
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка на Python</h1>
 
-**Код после:**
+**Код после всех заданий:**
 
 ```html
 print("Система расчёта штрафов")
