@@ -551,6 +551,9 @@ public class Main
 
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка iOS-приложений</h1>
 
+В ходе выполнения задания в этом разделе я столкнулась с проблемой, мешающей выплнению этого задания. Следуя инструкции, которая была приложена к уроку, после скачивания всех архивов возникла сдеующая ошикба:
+![](https://github.com/user-attachments/assets/e3e2f5bd-0dfb-4041-be9a-df06aed02510)
+
 <h1 tabindex="-1" class="heading-element" dir="auto">Разработка Android-приложений</h1>
 
 **Задание 1**
